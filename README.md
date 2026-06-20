@@ -140,7 +140,7 @@ Bug report contains:
 - Expected Result
 - Actual Result
 
-![Bug Report](screenshots/Bug_Report.png)
+![Bug Report](./screenshots/Bug_Report.png)
 
 
 
