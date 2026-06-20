@@ -1,80 +1,218 @@
-# 🧪 SQA Manual Testing Project
+# Pickaboo.com Manual Testing Project
 
-## 📌 Project Overview
-This project demonstrates a **Manual Software Quality Assurance (SQA)** process performed on a web application.  
-It includes test cases, test scenarios, bug reports, and test execution results to ensure the quality and functionality of the system.
+![QA Testing](https://img.shields.io/badge/Project-Manual%20Testing-blue)
+![Role](https://img.shields.io/badge/Role-Junior%20QA%20Engineer-green)
 
----
+# Project Overview
 
-## 🎯 Objectives
-- To perform manual testing on the application
-- To identify functional issues and bugs
-- To create structured test cases and test scenarios
-- To document bugs in a clear and reproducible format
-- To ensure the system meets expected requirements
+This repository contains a complete **Manual Software Testing Project** performed on **Pickaboo.com**, an e-commerce website.
+
+The objective of this project was to analyze the website structure, identify important user flows, create test scenarios, design test cases, report defects, and prepare test execution metrics.
 
 ---
 
-## 🛠️ Testing Types Performed
+# Application Under Test
+
+**Website:** Pickaboo.com
+
+**Application Type:** E-commerce Website
+
+
+# Testing Scope
+
+The following testing activities were performed:
+
+- Manual Testing
 - Functional Testing
 - UI Testing
-- Regression Testing
-- Smoke Testing (if applicable)
 - Exploratory Testing
-
----
-
-## 📁 Project Structure
+- Regression Testing
 
 
 ---
 
-## 🐞 Bug Reporting Format
-Each bug report contains:
+# Website Analysis
+
+Before preparing test cases, the Pickaboo website was analyzed to identify major modules and user journeys.
+
+## Identified Modules
+
+### Header Module
+
+- Logo
+- Search Bar
+- Login
+- Product Category Navigation
+
+
+### Homepage Module
+
+- Advertisement Slider
+- Promotional Campaigns
+- Flash Deals
+- Product Categories
+- Product Sections
+
+
+### Footer Module
+
+- About Us
+- Privacy Policy
+- Cookie Policy
+- Terms & Conditions
+- Blog
+- Career
+
+
+### Help & Support Module
+
+- Payment Information
+- Shipping Information
+- Return and Replacement
+- Customer Support
+
+
+## Website Analysis Mind Map
+
+![Website Analysis](screenshots/Pickaboo_Website_Analysis.png)
+
+
+---
+
+# Test Documentation
+
+
+## Test Scenario
+
+High-level test scenarios were prepared to define testing coverage.
+
+Covered areas:
+
+- Website availability
+- Authentication
+- Product browsing
+- Cart functionality
+- Checkout process
+- Order management
+
+
+![Test Scenario](screenshots/TestScenarios.png)
+
+
+
+---
+
+# Test Cases
+
+Detailed test cases were created for important user functionalities.
+
+Covered functionalities:
+
+- User Login
+- Product Search
+- Product Details
+- Add To Cart
+- Cart Management
+- Checkout
+- Payment
+- Order Tracking
+- Return Process
+
+
+![Test Cases](screenshots/TestCase.png)
+
+
+
+---
+
+# Bug Report
+
+Defects were documented using standard QA reporting format.
+
+Bug report contains:
+
 - Bug ID
-- Title
+- Description
+- Module
+- Severity
+- Priority
 - Steps to Reproduce
 - Expected Result
 - Actual Result
-- Severity & Priority
-- Screenshots (if applicable)
+
+
+![Bug Report](screenshots/Bug_Report.png)
+
+
 
 ---
 
-## 📊 Test Case Format
-Each test case includes:
-- Test Case ID
-- Test Description
-- Preconditions
-- Test Steps
-- Expected Result
-- Actual Result
-- Status (Pass/Fail)
+# Test Metrics
+
+Testing metrics were prepared to evaluate test execution status.
+
+Metrics include:
+
+- Test Case Execution Percentage
+- Pass Percentage
+- Fail Percentage
+- Defect Density
+- Defect Removal Efficiency
+- Defect Leakage
+
+
+![Test Metrics](screenshots/Test_Metrics.png)
+
 
 ---
 
-## 🧰 Tools Used
-- Microsoft Excel / Google Sheets
-- Jira (for bug tracking) *(if used)*
-- Browser Developer Tools
-- Manual Testing Techniques
+# Test Summary Report
+
+## Testing Result
+
+| Metric | Result |
+|---|---|
+| Total Test Cases | 10 |
+| Executed Test Cases | 10 |
+| Passed Test Cases | 8 |
+| Failed Test Cases | 2 |
+| Reported Defects | 3 |
+
 
 ---
 
-## 📈 Key Learning Outcomes
-- Improved understanding of QA lifecycle
-- Hands-on experience in writing test cases
-- Bug identification and reporting skills
-- Practical exposure to real-world testing workflow
+# Tools Used
+
+| Tool | Purpose |
+|-|-|
+| Excel | Test Documentation |
+| Browser | Website Testing |
+| Jira Knowledge | Bug Reporting |
+| GitHub | Project Management |
+
 
 ---
 
-## 👨‍💻 Author
-**Tahmid Mostaque Talha**  
-Software Engineering Graduate | Junior QA Engineer  
-Passionate about Manual & Automation Testing
+# Repository Structure
+
+
 
 ---
 
-## 📌 Note
-This project is part of my QA portfolio to demonstrate real-world manual testing skills and documentation practices.
+# Skills Demonstrated
+
+- Test Case Design
+- Test Scenario Creation
+- Functional Testing
+- Bug Reporting
+- Test Documentation
+- QA Reporting
+
+
+---
+
+# Author
+
+**Tahmid Mostaque Talha**
+
+Junior QA Engineer
